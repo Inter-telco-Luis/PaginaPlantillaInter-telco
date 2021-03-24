@@ -1,0 +1,114 @@
+/* estilo contenido */
+.fuente-seccion{
+    font-family: Calibri; 
+    font-size: 16px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: normal; 
+    color: #949494 ;
+    /* line-height: 26.4px;  */
+}
+/* estilo titulo contenido */
+.fuente-titulo-seccion{
+    font-family: Calibri; 
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: bold; 
+    color: #FF2C00;
+}
+/* estilo menu principal */
+.fuente-menu-seccion{
+    font-family: Calibri; 
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: bold; 
+    color: #004880;
+}
+/* estilo menu no seleccionado */
+.fuente-menu-no{
+    font-family: Calibri; 
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: lighter; 
+    color: #949494 ;
+}
+/* estilo menu lateral seleccionado */
+.fuente-menu{
+    font-family: Calibri; 
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: lighter; 
+    color: #004880;
+}
+/* estilo lista camaras menu camaras */
+.listado-camaras{
+    color: #004880;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+}
+/* estilo iconos borrar y editar camaras */
+.iconobe{
+    margin-top: 0.7rem;
+    margin-left: 0.5rem;
+}
+/* borde secion fondo blanco */
+.seccion-blanco{
+    border-radius: 10px;
+}
+/* espaciado lista de camaras */
+.separacion-padding-camaras{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+/* estilo boton agregar camara */
+.boton-azul{
+    margin-top:0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #004880;
+    color: white;
+    font-family: Calibri; 
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: lighter;
+    border-radius: 15px 0px;
+}
+.boton-azul-historial{
+    /* margin-top:0.5rem;
+    margin-bottom: 0.5rem; */
+    background-color: #004880;
+    color: white;
+    font-family: Calibri; 
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: lighter;
+    border-radius: 15px 0px;
+}
+/* estilo boton salir */
+.boton-salir{
+    margin-top: 315%;
+    background-color: #004880;
+    color: white;
+    font-family: Calibri; 
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: lighter;
+    border-radius: 15px 0px;
+}
+
+.fuente-menu-inicio{
+    font-family: Calibri; 
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: lighter; 
+    color: #ffffff;
+}

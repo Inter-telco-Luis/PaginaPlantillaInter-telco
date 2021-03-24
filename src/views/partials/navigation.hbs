@@ -1,0 +1,66 @@
+
+
+
+<link rel="stylesheet" href="/css/menus.css">
+<link rel="stylesheet" href="/css/moviint.css">
+{{!--This is what the user sees if its logged in--}}
+{{#if user}}
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+            <i class="fas fa-link"><img src="/img/LogoInterTchico.png"></i> 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse  navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                {{#if user}}
+
+                <div class="btn-group ">   
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">     
+                    <span class="flinksuente-menu-seccion">Posiciones</span>
+                    {{!-- <img class="rounded-circle" src="/img/{{user.username}}" alt="Logo" width="80" height="70" style="horizontal-align:middle;margin:0px 50px;"> --}}
+                </button>           
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="/links">Posiciones</a>
+                    <a class="dropdown-item" href="/links/add">Agregar Posición</a>
+                </div>
+                <{" "}>
+
+                <div class="btn-group ">   
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">     
+                    <span class="flinksuente-menu-seccion">{{user.username}}</span>
+                    {{!-- <img class="rounded-circle" src="/img/{{user.username}}" alt="Logo" width="80" height="70" style="horizontal-align:middle;margin:0px 50px;"> --}}
+                </button>           
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="/profile">Perfil</a>
+                    <a class="dropdown-item" href="/links/edit_profile">Editar perfil</a>
+                    <a class="dropdown-item ocultar" href="/links/create">Añadir usuario</a>
+                    <a class="dropdown-item ocultar" href="/links/change_img">Cambiar logo</a>
+                    <a class="dropdown-item ocultar" href="/logout">Salir</a> 
+                </div>
+                </div>
+                {{else}}
+                <li class="nav-item">
+                <a class="fuente-menu-inicio" href="/signin">Ingresar</a>
+                </li>
+                <{" "}>
+                <li class="nav-item">
+                <a class="fuente-menu-inicio" href="/signup">Registrar</a>
+                </li>
+                {{/if}}
+            </ul>
+            </div>
+        </div>
+    </nav>
+    {{#if index}}
+
+    {{else}}
+
+    {{/if}}
+
+{{/if}}

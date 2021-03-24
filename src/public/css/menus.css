@@ -1,0 +1,50 @@
+
+/* menu vertical */
+.vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 1;
+    left: 0;
+    /* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); */
+    transition: all 0.4s;
+    background-color: #D7E1E5;
+    /* padding-top: 1.25rem;
+    padding-bottom: 1.25rem; */
+    padding: 1.25rem ;
+  }
+  /* menu vertical */
+  .page-content {
+    width: calc(100% - 17rem);
+    /* width: 100%; */
+    /* height: 100%; */
+    /* height: calc(100% - 6rem); */
+    margin-left: 17rem;
+    transition: all 0.4s;
+    position:fixed;
+  }
+  /* menu vertical submenus */
+  .menu-lateral{
+    margin-top: 1rem;
+    height: calc(100% - 6rem);
+    border-radius: 10px;
+  }
+  
+  .borde-rojo{
+    border-style: solid;
+    color: red;
+    border-radius: 20px;
+  }
+  
+  body {
+    background: #D7E1E5;
+    /* min-height: 100vh;
+    overflow-x: hidden; */
+  }
+  /* submenu mapas */
+  .submenu-lateral{
+    margin-left: 10px;
+  }
+    
+    

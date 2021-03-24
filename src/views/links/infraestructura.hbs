@@ -1,0 +1,77 @@
+<!-- Vertical navbar -->
+<link rel="stylesheet" href="/css/menus.css">
+<link rel="stylesheet" href="/css/moviint.css">
+{{!--This is what the user sees if its logged in--}}
+{{#if user}}
+
+
+  <!-- Begin vertical navbar --> 
+  <div class="vertical-nav" id="sidebar">
+    {{!-- <div class="margenes-menu container-fluid"> --}}
+      <ul class="nav flex-column bg-white mb-0 menu-lateral">
+        <li class="nav-item">
+          <a href="/links/dashboard" class="nav-link fuente-menu-no">
+            {{!-- <img src="/img/iconos/icono-camara.svg" alt=""> --}}
+            Dashboard
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/links/proyectos" class="nav-link fuente-menu-no">
+            {{!-- <img src="/img/iconos/icono-reporte.svg" alt=""> --}}
+            Proyectos
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/links/personal" class="nav-link fuente-menu-no">
+            {{!-- <img src="/img/iconos/icono-grabacion.svg" alt=""> --}}
+            Personal
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/links/infraestructura" class="nav-link fuente-menu-no">
+            {{!-- <img src="/img/iconos/icono-reporte.svg" alt=""> --}}
+            Infraestructura
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/links/documentacion" class="nav-link fuente-menu-no">
+            {{!-- <img src="/img/iconos/icono-reporte.svg" alt=""> --}}
+            Documentacion
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/links/inventarios" class="nav-link fuente-menu-no">
+            {{!-- <img src="/img/iconos/icono-reporte.svg" alt=""> --}}
+            Inventarios
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/links/presupuestos" class="nav-link fuente-menu-no">
+            {{!-- <img src="/img/iconos/icono-reporte.svg" alt=""> --}}
+            Presupuestos
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/links/proveedores" class="nav-link fuente-menu-no">
+            {{!-- <img src="/img/iconos/icono-reporte.svg" alt=""> --}}
+            Proveedores
+          </a>
+        </li>
+        <div class="p-4">
+          <a href="/logout" class="btn boton-salir btn-block">Salir</a>
+        </div>
+
+
+          
+
+      </ul>
+    {{!-- </div> --}}
+  </div>
+<!-- End vertical navbar -->   
+
+    <div class="col-md-8 mx-auto">
+        <p><h3>Infraestructura</h3></p>
+    </div>
+
+
+{{/if}}
